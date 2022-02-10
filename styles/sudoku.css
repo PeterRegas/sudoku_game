@@ -1,9 +1,27 @@
 
-table{border-collapse: collapse;}
-td { border: solid thin; height: 2em; width: 2em; text-align: center; font: 'Garamond'; font-size: 25px;}
+.board{border-collapse: collapse;}
+.board td{ border: solid thin; height: 2em; width: 2em; text-align: center; font: 'Garamond'; font-size: 25px;}
+.letters td{ border: solid thin; height: 2em; width: 2em; text-align: center; font: 'Garamond'; font-size: 25px;}
+
+.highscore{
+  text-align: center; font: 'Garamond'; font-size: 25px;
+  border-collapse: collapse;
+  border-spacing: 20px 5rem;
+  }
+.highscore tr:nth-child(1){
+    border-bottom: solid medium;
+  }
+  .highscore td{
+    height: 3em;
+    width: 10em;
+  }
 p {
     padding: 10px;
 }
+nav{
+  padding: 10px;
+}
+
 img.undo {
     width:20px;
     height:20px;
