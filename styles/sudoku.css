@@ -1,7 +1,7 @@
 
 .board{border-collapse: collapse;}
 .board td{ border: solid thin; height: 2em; width: 2em; text-align: center; font: 'Garamond'; font-size: 25px;}
-.letters td{ border: solid thin; height: 2em; width: 2em; text-align: center; font: 'Garamond'; font-size: 25px;}
+.numbers td{ border: solid thin; height: 2em; width: 2em; text-align: center; font: 'Garamond'; font-size: 25px;}
 
 .highscore{
   text-align: center; font: 'Garamond'; font-size: 25px;
@@ -11,7 +11,7 @@
 .highscore tr:nth-child(1){
     border-bottom: solid medium;
   }
-  .highscore td{
+.highscore td{
     height: 3em;
     width: 10em;
   }
@@ -21,7 +21,9 @@ p {
 nav{
   padding: 10px;
 }
-
+#scoreTitle, #scoreTitle2{
+  font-weight: bold;
+}
 img.undo {
     width:20px;
     height:20px;
@@ -41,11 +43,19 @@ img.undo {
 .board td:hover {
     background-color: #f5dd90;
   }
-
-.user-input {
-    background-color: #f2f2f2;
-}
+.numbers td:hover {
+    background-color: #f5dd90;
+  }
+td.highlite {
+    background: yellow
+  }
 
 .error {
     background-color: #f76c5e;
+}
+.selected{
+  background-color: aqua;
+}
+.selectedNum{
+  background-color: aquamarine;
 }
